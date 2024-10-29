@@ -1,0 +1,41 @@
+<header class="header-section" th:fragment="menu">
+    <div class="container">
+        <div class="header-wrapper">
+            <div class="logo">
+                <a th:href="@{/home}">
+                    <img th:src="@{/user/assets/images/logo/logo.png}" alt="logo">
+                </a>
+            </div>
+            <ul class="menu">
+                <li>
+                    <a th:href="@{/}" class="active">Home</a>
+                </li>
+                <li>
+                    <a th:href="@{/all}">Movie</a>
+
+                </li>
+      
+                <li>
+                    <a href="/blog">Blog</a>
+                    
+                </li>
+                <li>
+                    <a href="/about">About</a>
+
+                </li>
+
+                <li>
+                    <a href="/contact">Contact</a>
+                </li>
+                <li class="header-button pr-0">
+                    <a href="/signup">Sign Up</a>
+                </li>
+            </ul>
+            <div class="header-bar d-lg-none">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</header>
