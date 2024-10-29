@@ -33,7 +33,7 @@
             <h1 class="title  cd-headline clip"><span class="d-block">Xem các bộ phim mới nhất</span> với
                 <span class="color-theme cd-words-wrapper p-0 m-0">
                         <b class="is-visible">FantaFilm</b>
-// phim.id phim.nm
+
                     </span>
             </h1>
             <!-- <p>Tham gia ngay hôm nay để nhận hàng ngàn ưu đãi!!!</p> -->
@@ -49,29 +49,29 @@
             <div class="row align-items-center mb--20">
                 <div class="col-lg-6 mb-20">
                     <div class="search-ticket-header">
-                        <h6 class="category">Welcom to Fantafilm</h6>
-                        <h3 class="title">What are you looking for?</h3>
+                        <h6 class="category">Chào mừng đến với G12</h6>
+                        <h3 class="title">Bạn cần tìm gì?</h3>
                     </div>
                 </div>
                 <div class="col-lg-6 mb-20">
                     <ul class="tab-menu ticket-tab-menu">
+                        <!-- <li class="active">
+                            <div class="tab-thumb">
+                                <img src="assets/images/ticket/ticket-tab01.png" alt="ticket">
+                            </div>
+                            <span>phim</span>
+                        </li> -->
                         <li class="active">
                             <div class="tab-thumb">
-                                <img th:src="@{/user/assets/images/ticket/ticket-tab01.png}" alt="ticket">
+                                <img src="assets/images/ticket/ticket-tab01.png" alt="ticket">
                             </div>
-                            <span>Movie</span>
-                        </li>
-                        <li class="active">
-                            <div class="tab-thumb">
-                                <img th:src="@{/user/assets/images/ticket/ticket-tab01.png}" alt="ticket">
-                            </div>
-                            <span>Movie</span>
+                            <span>Phim</span>
                         </li>
                         <li>
                             <div class="tab-thumb">
-                                <img th:src="@{/user/assets/images/ticket/ticket-tab03.png}" alt="ticket">
+                                <img src="assets/images/ticket/ticket-tab03.png" alt="ticket">
                             </div>
-                            <span>Blog</span>
+                            <span>Tin tức</span>
                         </li>
                     </ul>
                 </div>
@@ -80,26 +80,26 @@
                 <div class="tab-item active">
                     <form class="ticket-search-form">
                         <div class="form-group large">
-                            <input type="text" placeholder="Search for a movie...">
+                            <input type="text" placeholder="Tìm tên phim ...">
                             <button type="submit"><i class="fas fa-search"></i></button>
                         </div>
                         <div class="form-group">
                             <div class="thumb">
                                 <img th:src="@{user/assets/images/ticket/city.png}" alt="ticket">
                             </div>
-                            <span class="type">Address</span>
+                            <span class="type">Địa điểm</span>
                             <select class="select-bar">
-                                <option value="london">Hanoi</option>
-                                <option value="dhaka">Hai Phong</option>
-                                <option value="rosario">Da Nang</option>
-                                <option value="madrid">Ho Chi Minh City</option>
+                                <option value="london">Hà Nội</option>
+                                <option value="dhaka">Hải Phòng</option>
+                                <option value="rosario">Đà Nẵng</option>
+                                <option value="madrid">Hồ Chí Minh</option>
                             </select>
                         </div>
                         <div class="form-group">
                             <div class="thumb">
                                 <img th:src="@{user/assets/images/ticket/date.png}" alt="ticket">
                             </div>
-                            <span class="type">Showtimes</span>
+                            <span class="type">Quốc gia</span>
                             <select class="select-bar">
                                 <option value="26-12-19">23/10/2020</option>
                                 <option value="26-12-19">24/10/2020</option>
@@ -111,7 +111,7 @@
                             <div class="thumb">
                                 <img th:src="@{user/assets/images/ticket/cinema.png}" alt="ticket">
                             </div>
-                            <span class="type">Movie type</span>
+                            <span class="type">Thể loại</span>
                             <select class="select-bar">
                                 <option value="Awaken">Kinh dị</option>
                                 <option value="dhaka">Hài</option>
@@ -125,7 +125,7 @@
                 <div class="tab-item">
                     <form class="ticket-search-form">
                         <div class="form-group large">
-                            <input type="text" placeholder="Search for a movie...">
+                            <input type="text" placeholder="Tìm bài viết ...">
                             <button type="submit"><i class="fas fa-search"></i></button>
                         </div>
 
@@ -151,21 +151,21 @@
                                 <a th:href="@{/about}">
                                         <span class="img"><img th:src="@{user/assets/images/sidebar/icons/sidebar01.png}"
                                                                alt="sidebar"></span>
-                                    <span class="cate">Fast and secure payment</span>
+                                    <span class="cate">Thanh toán nhanh gọn</span>
                                 </a>
                             </li>
                             <li>
                                 <a th:href="@{/about}">
                                         <span class="img"><img th:src="@{user/assets/images/sidebar/icons/sidebar02.png}"
                                                                alt="sidebar"></span>
-                                    <span class="cate">Absolute <br> safety</span>
+                                    <span class="cate">An toàn<br> tuyệt đối</span>
                                 </a>
                             </li>
                             <li>
                                 <a th:href="@{/about}">
                                         <span class="img"><img th:src="@{user/assets/images/sidebar/icons/sidebar03.png}"
                                                                alt="sidebar"></span>
-                                    <span class="cate">Timely support</span>
+                                    <span class="cate">Hỗ trợ kịp thời</span>
                                 </a>
                             </li>
                         </ul>
@@ -179,7 +179,7 @@
                     </div>
                 </div>
                 <div class="widget-1 widget-trending-search">
-                    <h3 class="title">Trending</h3>
+                    <h3 class="title">Đang thịnh hành</h3>
                     <div class="widget-1-body">
                         <ul>
                             <li>
@@ -220,8 +220,8 @@
             <div class="col-lg-9">
                 <div class="article-section padding-bottom">
                     <div class="section-header-1">
-                        <h2 class="title">Now showing</h2>
-                        <a class="view-all" href="all.html">View all</a>
+                        <h2 class="title">Đang khởi chiếu</h2>
+                        <a class="view-all" href="movie-grid.html">Xem tất cả</a>
                     </div>
                     <div class="row mb-30-none justify-content-center">
                         <div class="col-sm-6 col-lg-4">
@@ -396,8 +396,8 @@
                 </div>
                 <div class="article-section padding-bottom">
                     <div class="section-header-1">
-                        <h2 class="title">Coming soon</h2>
-                        <a class="view-all" href="all.html">View All</a>
+                        <h2 class="title">Sắp khởi chiếu</h2>
+                        <a class="view-all" href="movie-grid.html">View All</a>
                     </div>
                     <div class="row mb-30-none justify-content-center">
                         <div class="col-sm-6 col-lg-4">
@@ -476,7 +476,7 @@
                                         </li>
                                         <li>
                                             <div class="thumb">
-                                                <img th:src="@{/user/assets/images/movie/cake.png}" alt="movie">
+                                                <img src="assets/images/movie/cake.png" alt="movie">
                                             </div>
                                             <span class="content">88%</span>
                                         </li>

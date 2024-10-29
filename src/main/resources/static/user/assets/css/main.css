@@ -398,7 +398,7 @@ abbr[title] {
  */
 b,
 strong {
-  font-weight: medium;
+  font-weight: bolder;
 }
 
 /**
@@ -741,8 +741,6 @@ p:last-child {
     font-size: 50px;
     line-height: 60px;
     margin-top: -13px;
-    font-family: 'Trebuchet MS', sans-serif;
-    font-color: white;
   }
   h3 {
     font-size: 36px;
